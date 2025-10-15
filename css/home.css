@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+}
+
+.header-bar{
+    display: grid;
+    grid-template-rows: 50px 570px;
+}
+ 
+.nav-bar{
+    margin-right: 10px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 50px;
+}
+
+.header-body{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.kpop-team{
+    align-self: center;
+}
+
+.kpop-image{
+    height: 450px;
+    margin-left: 120px;
+}
+
+.kpop-description{
+    align-content: center;
+    
+}
+
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-self: center;
+}
+
+.logo-bar{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.logo{
+    height: 35px;
+    grid-column: 2 / 3;
+    align-self: center;
+}
+
+.header-bar{
+    background-image: url('../images/bg2.png'), url('../images/bg.png');
+    background-size: cover;
+}
+
+.nav-button{
+    background: transparent;
+    color: white;
+    align-self: flex-end;
+}
+
+.nav-item{
+    color: white;
+    text-decoration: none;
+    align-self: center;
+}
+
+.nav-button{
+    border: transparent;
+}
+
+.nav-signup , .nav-login{
+    border:  1.5px solid white;
+    border-radius: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 10px;
+}
+.titre1{
+    color: white;
+    text-decoration: none;
+}
+
+.description-home{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+.events-button {
+    border-color: transparent;
+    background: transparent;
+}
+
+.blog-button{
+    background: transparent;
+    border: transparent;
+    text-decoration: none;
+}
+
+.blog-button-cadre{
+    border:  1.5px solid white;
+    border-radius: 30px;
+    text-align: center;
+    height: 50px;
+
+}
+.events-button-cadre{
+    background-color: #F5167E;
+    border:  1.5px solid #F5167E;
+    margin: 0 15px;
+
+}
