@@ -1,3 +1,4 @@
+/*------------ header ------------*/
 body{
     margin: 0;
 }
@@ -19,6 +20,7 @@ body{
     display: grid;
     grid-template-columns: auto auto;
 }
+
 .kpop-team{
     align-self: center;
 }
@@ -82,6 +84,7 @@ body{
 .titre1{
     color: white;
     text-decoration: none;
+    font-size: 50px;
 }
 
 .description-home{
@@ -90,27 +93,78 @@ body{
     font-size: large;
 }
 
+.events-blog-buttons{
+    height: fit-content;
+    align-content: center;
+}
+
 .events-button {
     border-color: transparent;
     background: transparent;
+    width: 100px;
 }
 
 .blog-button{
     background: transparent;
     border: transparent;
     text-decoration: none;
+    width: 100px;   
 }
 
 .blog-button-cadre{
     border:  1.5px solid white;
     border-radius: 30px;
     text-align: center;
-    height: 50px;
-
+    margin: 0 15px;
+    height: fit-content;
+    width: fit-content;
+    padding: 1%;
 }
 .events-button-cadre{
     background-color: #F5167E;
     border:  1.5px solid #F5167E;
+    border-radius: 30px;
+    text-align: center;
     margin: 0 15px;
-
+    height: fit-content;
+    width: fit-content;
+    padding: 1%;   
 }
+
+/*------------ search bar ------------*/
+
+.search-bar-nav{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.research-bar{
+    height: 140px;
+    width: 1050px;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: 140px;
+    background-color: #242565;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.place-bar, .time-bar, .search-bar{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+}
+
+.search-text, .place-text, .time-text{
+    font-size: 20px;
+    color: white;
+}
+
+.date-bar, .place-input, .search-input{
+    width: 200px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
